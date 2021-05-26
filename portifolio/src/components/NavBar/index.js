@@ -6,7 +6,10 @@ function NavBar() {
   const [openMenu, setOpenMenu] = useState(false);
 
   const handleOpenMenu = (e) => {
-    setOpenMenu(true);
+    if (openMenu) setOpenMenu(false);
+    else {
+      setOpenMenu(true);
+    }
   };
 
   return (
@@ -14,10 +17,11 @@ function NavBar() {
       <a href="#" className="logo">
         Beatriz Calazans
       </a>
-      <button className="menu-toggle">
+
+      <button onClick={() => handleOpenMenu()} className="menu-toggle">
         <MenuIcon className="menu-icon" />
       </button>
-      <nav>
+      <nav className={openMenu ? "active" : ""}>
         <ul>
           <li>
             <a href="#">Sobre mim</a>
@@ -36,6 +40,7 @@ function NavBar() {
           </li>
         </ul>
       </nav>
+
       <div className="clearfix"></div>
     </header>
   );
