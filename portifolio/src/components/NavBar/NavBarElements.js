@@ -25,8 +25,9 @@ export const NavbarContainer = styled.div`
     height: 80px;
     z-index: 1;
     width: 100%;
-    padding: 0 24px;
-    max-width: 1100px;
+    padding: 0 50px;
+    max-width: 1600px;
+    /* background-color: red; */
 
 `;
 export const NavLogo = styled.h6`
@@ -35,10 +36,10 @@ export const NavLogo = styled.h6`
     cursor: pointer;
     font-size: 1.5rem;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     margin-left: 24px;
     font-weight: bold;
-    /* text-decoration: none; */
+    text-decoration: none;
     `;
 
 export const MobileIcon = styled.div`
@@ -60,14 +61,16 @@ export const NavMenu = styled.ul `
     align-items: center;
     list-style: none;
     text-align: center;
-    margin-right: -22px;
+    margin-left: -22px;
 
     @media screen and (max-width: 768px){
         display: none
     }
 `
+
 export const NavItem = styled.li`
     height: 80px;
+  
 `
 export const NavLinks = styled(LinkS)`
     color: #fff;

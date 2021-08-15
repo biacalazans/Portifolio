@@ -1,38 +1,50 @@
 import "./navbar.css";
 import MenuIcon from "@material-ui/icons/Menu";
 import { useState } from "react";
-import Logo from "../../assets/Logo.svg"
-import {FaBars} from 'react-icons/fa'
-import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu,
- NavItem, NavLinks} from './NavBarElements'
+import Logo from "../../assets/Logo.svg";
+import { FaBars } from "react-icons/fa";
+import {
+  Nav,
+  NavbarContainer,
+  NavLogo,
+  MobileIcon,
+  NavMenu,
+  NavItem,
+  NavLinks,
+} from "./NavBarElements";
 
-function NavBar() {
-  const [openMenu, setOpenMenu] = useState(false);
-
-  const handleOpenMenu = (e) => {
-    if (openMenu) setOpenMenu(false);
-    else {
-      setOpenMenu(true);
-    }
-  };
-
+const NavBar = ({ toggle }) => {
   return (
     <>
-    <Nav>
-      <NavbarContainer>
-        <NavLogo to='/'>CALAZANS</NavLogo>
-      </NavbarContainer>
-      <MobileIcon>
-        <FaBars/>
-      </MobileIcon>
-      <NavMenu>
-        <NavItem>
-          <NavLinks to='about'>Sobre mim</NavLinks>
-        </NavItem>
-      </NavMenu>
-    </Nav>
+      <Nav>
+        <NavbarContainer>
+          <NavLogo to="/">CALAZANS</NavLogo>
+
+          <MobileIcon onClick={toggle}>
+            <FaBars />
+          </MobileIcon>
+
+          <NavMenu>
+            <NavItem>
+              <NavLinks to="about">Sobre mim</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to="prfessional">Experiência</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to="skills">Skills</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to="productions">Produções</NavLinks>
+            </NavItem>
+            <NavItem>
+              <NavLinks to="contact">Contato</NavLinks>
+            </NavItem>
+          </NavMenu>
+        </NavbarContainer>
+      </Nav>
     </>
   );
-}
+};
 
 export default NavBar;
