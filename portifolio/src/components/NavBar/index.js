@@ -1,6 +1,10 @@
 import "./navbar.css";
 import MenuIcon from "@material-ui/icons/Menu";
 import { useState } from "react";
+import Logo from "../../assets/Logo.svg"
+import {FaBars} from 'react-icons/fa'
+import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu,
+ NavItem, NavLinks} from './NavBarElements'
 
 function NavBar() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -13,36 +17,21 @@ function NavBar() {
   };
 
   return (
-    <header>
-      <a href="#" className="logo">
-        Beatriz Calazans
-      </a>
-
-      <button onClick={() => handleOpenMenu()} className="menu-toggle">
-        <MenuIcon className="menu-icon" />
-      </button>
-      <nav className={openMenu ? "active" : ""}>
-        <ul>
-          <li>
-            <a href="#">Sobre mim</a>
-          </li>
-          <li>
-            <a href="#">Skills</a>
-          </li>
-          <li>
-            <a href="#">Produções</a>
-          </li>
-          <li>
-            <a href="#">Sobre o site</a>
-          </li>
-          <li>
-            <a href="#">Contato</a>
-          </li>
-        </ul>
-      </nav>
-
-      <div className="clearfix"></div>
-    </header>
+    <>
+    <Nav>
+      <NavbarContainer>
+        <NavLogo to='/'>CALAZANS</NavLogo>
+      </NavbarContainer>
+      <MobileIcon>
+        <FaBars/>
+      </MobileIcon>
+      <NavMenu>
+        <NavItem>
+          <NavLinks to='about'>Sobre mim</NavLinks>
+        </NavItem>
+      </NavMenu>
+    </Nav>
+    </>
   );
 }
 
