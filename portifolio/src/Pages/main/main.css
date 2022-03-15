@@ -1,0 +1,435 @@
+/* DESKTOP */
+@media only screen and (min-width: 600px) {
+  html {
+    background: url(background.svg) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .logo-container {
+    background-color: black;
+    color: white;
+    padding: 100px 170px;
+    border: 2px solid #76c9e3;
+    border-radius: 10px;
+
+    width: 240px;
+    height: 100px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .arrow-container {
+    position: absolute;
+    top: 400px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    width: 50px;
+    height: 50px;
+  }
+
+  .arrow-btn {
+    background-color: transparent;
+    border: none;
+  }
+
+  /* SECTION 1 */
+
+  .section-1-intro {
+    /* background-color: black; */
+
+    position: absolute;
+    top: 1200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    width: 600px;
+    height: 400px;
+
+    text-align: center;
+
+    color: white;
+  }
+
+  .s1-btn-1 {
+    background-color: black;
+    border: 1px solid #eb4365;
+    color: #76c9e3;
+    border-radius: 10px;
+    padding: 8px;
+    min-width: 300px;
+    font-size: 1.2rem;
+  }
+
+  .s1-btn-2 {
+    background-color: black;
+    border: 1px solid #76c9e3;
+    color: #eb4365;
+    border-radius: 10px;
+    padding: 8px;
+    min-width: 300px;
+    font-size: 1.2rem;
+  }
+
+  .s1-title {
+    background-color: black;
+  }
+
+  /* SECTION-2 */
+
+  .section-2-aboutme {
+    position: absolute;
+    top: 1600px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    width: 600px;
+    /* height: 400px; */
+
+    /* text-align: center; */
+  }
+
+  /* SECTION-3 */
+
+  .section-3-pe {
+    position: absolute;
+    top: 3600px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    width: 400px;
+    /* height: 400px; */
+  }
+
+  /* SECTION-4 */
+
+  .section-4-pe {
+    position: absolute;
+    top: 4600px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    width: 400px;
+    /* height: 400px; */
+  }
+
+  /* SECTION-5 */
+
+  .section-5-pe {
+    position: absolute;
+    top: 6400px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    width: 400px;
+    /* height: 400px; */
+  }
+
+  /* SECTION-6 */
+
+  .section-6-pe {
+    position: absolute;
+    top: 7200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    width: 400px;
+    /* height: 400px; */
+  }
+
+  /* FOOTER */
+
+  .footer {
+    position: absolute;
+    top: 7800px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    width: 400px;
+    height: 100px;
+  }
+
+  .s6-flex {
+    display: flex;
+  }
+
+  .info-container {
+    background-color: black;
+    border: 2px solid #76c9e3;
+    border-radius: 6px;
+    color: white;
+    padding: 18px 24px;
+  }
+
+  .no-margin {
+    margin: 0;
+  }
+
+  .side-icon-margin {
+    margin: 4px 0px 0px 6px;
+    text-decoration: none;
+    color: white;
+    font-size: 01rem;
+  }
+
+  /* TEXT STYLES */
+
+  .white-1 {
+    font-size: 2.25rem;
+    color: white;
+    font-weight: 400;
+  }
+
+  .pink-1 {
+    font-size: 2.25rem;
+    color: #eb4365;
+    font-weight: 500;
+  }
+
+  .pink-2 {
+    font-size: 1.5rem;
+    color: #eb4365;
+    font-weight: 400;
+  }
+
+  .blue-1 {
+    font-size: 2.25rem;
+    color: #76c9e3;
+    font-weight: 400;
+  }
+
+  .blue-2 {
+    font-size: 1.2rem;
+    color: #76c9e3;
+    font-weight: 400;
+  }
+
+  .fix-text {
+    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+  }
+}
+
+/* 
+  
+  MOBILE 
+  
+  */
+@media only screen and (max-width: 540px) {
+  html {
+    background-color: black;
+  }
+
+  .mobile-container {
+    padding: 16px;
+    /* max-width: 360px; */
+  }
+
+  .logo-container {
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    border: 2px solid #76c9e3;
+    border-radius: 10px;
+
+    width: 280px;
+    height: 100px;
+
+    display: none;
+    justify-content: center;
+    margin-top: 64px;
+  }
+
+  .arrow-container {
+    display: none;
+    justify-content: center;
+    margin-top: 24px;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .arrow-btn {
+    background-color: transparent;
+    border: none;
+  }
+
+  .section-1-intro {
+    text-align: center;
+    margin-top: 50%;
+    margin-bottom: 70%;
+  }
+
+  .s1-btn-1 {
+    background-color: black;
+    border: 1px solid #eb4365;
+    color: #76c9e3;
+    border-radius: 10px;
+    padding: 8px;
+    min-width: 300px;
+    font-size: 1.2rem;
+  }
+
+  .s1-btn-2 {
+    background-color: black;
+    border: 1px solid #76c9e3;
+    color: #eb4365;
+    border-radius: 10px;
+    padding: 8px;
+    min-width: 300px;
+    font-size: 1.2rem;
+  }
+  .s1-title {
+    background-color: black;
+  }
+
+  .section-2-aboutme {
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .info-container {
+    background-color: black;
+    border: 2px solid #76c9e3;
+    border-radius: 6px;
+    color: white;
+    padding: 18px 24px;
+    font-size: 1.2rem;
+  }
+
+  /* SECTION-3 */
+
+  .section-3-pe {
+    margin-top: 82px;
+  }
+
+  .ceter-text {
+    text-align: center;
+  }
+
+  /* SECTION-4 */
+
+  .section-4-pe {
+    margin-top: 82px;
+  }
+
+  /* SECTION-5 */
+
+  .section-5-pe {
+    margin-top: 82px;
+  }
+
+  /* SECTION-6 */
+
+  .section-6-pe {
+    margin-top: 82px;
+  }
+
+  /* FOOTER */
+
+  .footer {
+    margin-top: 82px;
+  }
+
+  /* TEXT STYLES */
+
+  .white-1 {
+    font-size: 1.125rem;
+    color: white;
+    font-weight: 400;
+  }
+
+  .pink-1 {
+    font-size: 2.25rem;
+    color: #eb4365;
+    font-weight: 500;
+  }
+
+  .pink-2 {
+    font-size: 2rem;
+    color: #eb4365;
+    font-weight: 400;
+  }
+
+  .blue-1 {
+    font-size: 1.125rem;
+    color: #76c9e3;
+    font-weight: 400;
+  }
+
+  .blue-2 {
+    font-size: 1.2rem;
+    color: #76c9e3;
+    font-weight: 400;
+  }
+
+  .fix-text {
+    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+  }
+
+  .no-margin {
+    margin: 0;
+  }
+
+  .side-icon-margin {
+    margin: -0px 0px 8px 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 01rem;
+  }
+
+  .icon {
+    /* margin-top: 10px; */
+  }
+}
+a {
+  text-decoration: none;
+}

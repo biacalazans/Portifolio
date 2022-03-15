@@ -1,7 +1,7 @@
 import "./navbar.css";
 import MenuIcon from "@material-ui/icons/Menu";
 import { useState } from "react";
-import Logo from "../../assets/Logo.svg";
+
 import { FaBars } from "react-icons/fa";
 import {
   Nav,
