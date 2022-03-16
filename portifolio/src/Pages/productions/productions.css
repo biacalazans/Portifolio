@@ -1,5 +1,5 @@
 /* DESKTOP */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
   main {
     padding: 60px 100px;
   }
@@ -10,6 +10,8 @@
     border-radius: 6px;
     color: white;
     padding: 18px 36px;
+    max-width: 1000px;
+    margin: auto;
   }
 
   .black {
@@ -85,8 +87,8 @@
     text-align: justify;
   }
 
-  .s2-img-title {
-    font-style: italic;
+  .s2-margin {
+    margin-left: 48px;
   }
 
   .s2-color-container {
@@ -143,6 +145,42 @@
     width: 300px;
     margin-right: 24px;
   }
+
+  .s3-text-container1 {
+    line-height: 140%;
+    max-width: 360px;
+    font-size: 1.125rem;
+    margin-left: 36px;
+    text-align: justify;
+  }
+
+  .s3-text-container2 {
+    line-height: 140%;
+    max-width: 360px;
+    font-size: 1.125rem;
+    margin-right: 64px;
+    text-align: justify;
+  }
+
+  .s3-text-container3 {
+    line-height: 140%;
+    max-width: 420px;
+    font-size: 1.125rem;
+    margin-left: 36px;
+    text-align: justify;
+  }
+
+  .s3-mockup {
+    border-radius: 15px;
+    width: 560px;
+  }
+
+  .s3-screenshot {
+  }
+
+  .round-img {
+    border-radius: 15px;
+  }
 }
 
 /* 
@@ -150,7 +188,7 @@
   MOBILE 
   
   */
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 990px) {
   main {
     padding: 24px 16px;
   }
@@ -218,5 +256,91 @@
   }
 
   .s2-wire {
+    width: 280px;
   }
+
+  .s2-text-container1 {
+    line-height: 140%;
+
+    font-size: 1.125rem;
+
+    text-align: justify;
+  }
+
+  .s2-text-container2 {
+    line-height: 140%;
+
+    font-size: 1.125rem;
+
+    margin-top: 24px;
+    text-align: justify;
+  }
+
+  .s2-color-container {
+    text-align: center;
+    margin-right: 36px;
+  }
+
+  .s2-color1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #0496ff;
+  }
+  .s2-color2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ff3a20;
+  }
+  .s2-color3 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #4da167;
+  }
+  .s2-color4 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #6a0136;
+  }
+  .s2-color5 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fdca40;
+  }
+  .s2-color6 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f18f01;
+  }
+
+  .s2-text-container3 {
+    line-height: 140%;
+    max-width: 300px;
+    font-size: 1.125rem;
+    margin-left: 48px;
+    text-align: justify;
+  }
+
+  .s2-book {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .s2-profile-img {
+    width: 100%;
+  }
+}
+
+.flexbox-color {
+  display: flex;
+  justify-content: center;
+}
+
+.img-title {
+  font-style: italic;
 }

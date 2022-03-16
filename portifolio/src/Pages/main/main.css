@@ -1,5 +1,5 @@
 /* DESKTOP */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
   html {
     background: url(background.svg) no-repeat top center;
     -webkit-background-size: cover;
@@ -254,7 +254,7 @@
   MOBILE 
   
   */
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 990px) {
   html {
     background-color: black;
   }
