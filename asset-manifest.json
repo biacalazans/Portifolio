@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/biacalazans.io/static/css/main.d56a956e.chunk.css",
+    "main.js": "/biacalazans.io/static/js/main.90f2fa36.chunk.js",
+    "main.js.map": "/biacalazans.io/static/js/main.90f2fa36.chunk.js.map",
+    "runtime-main.js": "/biacalazans.io/static/js/runtime-main.d65fcbd2.js",
+    "runtime-main.js.map": "/biacalazans.io/static/js/runtime-main.d65fcbd2.js.map",
+    "static/js/2.e8a5d12a.chunk.js": "/biacalazans.io/static/js/2.e8a5d12a.chunk.js",
+    "static/js/2.e8a5d12a.chunk.js.map": "/biacalazans.io/static/js/2.e8a5d12a.chunk.js.map",
+    "static/js/3.a13eb4c3.chunk.js": "/biacalazans.io/static/js/3.a13eb4c3.chunk.js",
+    "static/js/3.a13eb4c3.chunk.js.map": "/biacalazans.io/static/js/3.a13eb4c3.chunk.js.map",
+    "index.html": "/biacalazans.io/index.html",
+    "static/css/main.d56a956e.chunk.css.map": "/biacalazans.io/static/css/main.d56a956e.chunk.css.map",
+    "static/js/2.e8a5d12a.chunk.js.LICENSE.txt": "/biacalazans.io/static/js/2.e8a5d12a.chunk.js.LICENSE.txt",
+    "static/media/ModalA.ad1dde0d.png": "/biacalazans.io/static/media/ModalA.ad1dde0d.png",
+    "static/media/ModalB.c5d4eb87.png": "/biacalazans.io/static/media/ModalB.c5d4eb87.png",
+    "static/media/Vector.05baf1da.svg": "/biacalazans.io/static/media/Vector.05baf1da.svg",
+    "static/media/main.css": "/biacalazans.io/static/media/backgroundMobile.652dc479.svg",
+    "static/media/bookjarWireframe.edb6bf5f.png": "/biacalazans.io/static/media/bookjarWireframe.edb6bf5f.png",
+    "static/media/confirmed.0e41fc80.svg": "/biacalazans.io/static/media/confirmed.0e41fc80.svg",
+    "static/media/frame0.40df6679.png": "/biacalazans.io/static/media/frame0.40df6679.png",
+    "static/media/home1.16397eee.svg": "/biacalazans.io/static/media/home1.16397eee.svg",
+    "static/media/home2.8518ba98.svg": "/biacalazans.io/static/media/home2.8518ba98.svg",
+    "static/media/mockup.b7d19c96.jpg": "/biacalazans.io/static/media/mockup.b7d19c96.jpg",
+    "static/media/perfil.e75dff14.png": "/biacalazans.io/static/media/perfil.e75dff14.png",
+    "static/media/persona.7a385cc3.png": "/biacalazans.io/static/media/persona.7a385cc3.png",
+    "static/media/profilepic.6feb8251.png": "/biacalazans.io/static/media/profilepic.6feb8251.png",
+    "static/media/ratingA.a2edc27d.png": "/biacalazans.io/static/media/ratingA.a2edc27d.png",
+    "static/media/ratingB.061ccae3.png": "/biacalazans.io/static/media/ratingB.061ccae3.png",
+    "static/media/screenshot.0a3ec1a3.png": "/biacalazans.io/static/media/screenshot.0a3ec1a3.png",
+    "static/media/slidePaper.dee237fc.png": "/biacalazans.io/static/media/slidePaper.dee237fc.png",
+    "static/media/slideToConfirm.2d74c4c6.svg": "/biacalazans.io/static/media/slideToConfirm.2d74c4c6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d65fcbd2.js",
+    "static/js/2.e8a5d12a.chunk.js",
+    "static/css/main.d56a956e.chunk.css",
+    "static/js/main.90f2fa36.chunk.js"
+  ]
+}
