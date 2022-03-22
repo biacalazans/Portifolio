@@ -7,13 +7,15 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import Link from "react-router-dom";
 
+import Logo from "../../assets/Logo.png";
+
 export const Home = () => {
   return (
     <>
       <div className="mobile-container">
         <div className="flex-container">
           <div className="logo-container">
-            <p className="pink-1 no-margin">Calazans</p>
+            <img className="logo" alt="Logo" src={Logo} />
           </div>
         </div>
 
