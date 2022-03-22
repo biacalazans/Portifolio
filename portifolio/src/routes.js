@@ -6,8 +6,11 @@ import Productions from "./Pages/productions";
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route element={<Home />} path="/"></Route>
-      <Route element={<Productions />} path="/producoes"></Route>
+      <Route element={<Home />} path="https://biacalazans.github.io"></Route>
+      <Route
+        element={<Productions />}
+        path="https://biacalazans.github.io/producoes"
+      ></Route>
     </Routes>
   );
 };
