@@ -1,9 +1,9 @@
 import { Grid } from "@material-ui/core";
 import React from "react";
 import "./productions.css";
-import ModalA from "../../assets/ModalA.png";
+import ModalA from "../../assets/ModalA.svg";
 import ModalB from "../../assets/ModalB.png";
-import RatingA from "../../assets/ratingA.png";
+import RatingA from "../../assets/ratingA.svg";
 import RatingB from "../../assets/ratingB.png";
 import BJWire from "../../assets/bookjarWireframe.png";
 import Book0 from "../../assets/frame0.png";
@@ -56,10 +56,10 @@ export default function Productions() {
                 <p>
                   O maior desafio dessas telas foi o fato de eu estar fazendo
                   apenas algumas partes do app e não ele todo, ou seja tinha que
-                  segui a estética para não deixar inconsistente. Entretanto,
-                  essa experiência em ensinou com o trabalhar com os limites
-                  estabelecidos pela empresa ou pela situação e como tirar o
-                  melhor disso.
+                  seguir a estética para não tornar o app inconsistente.
+                  Entretanto, apesar do desafio, essa experiência em ensinou
+                  como trabalhar com os limites estabelecidos pela empresa ou
+                  pela situação e como tirar o melhor disso.
                 </p>
               </div>
             </Grid>
@@ -92,9 +92,9 @@ export default function Productions() {
             </div>
           </div>
 
+          {/* <br />
           <br />
-          <br />
-          <br />
+          <br /> */}
 
           <div className="flexbox">
             <div>
@@ -122,9 +122,9 @@ export default function Productions() {
             </div>
           </div>
 
+          {/* <br />
           <br />
-          <br />
-          <br />
+          <br /> */}
 
           <div className="flexbox">
             <div className="block">
@@ -137,9 +137,9 @@ export default function Productions() {
             </div>
           </div>
 
+          {/* <br />
           <br />
-          <br />
-          <br />
+          <br /> */}
 
           <div className="flexbox">
             <Grid container justify="center">
@@ -195,9 +195,9 @@ export default function Productions() {
               </Grid>
             </Grid>
           </div>
+          {/* <br />
           <br />
-          <br />
-          <br />
+          <br /> */}
 
           <div className="flexbox">
             <div className="block">
@@ -213,7 +213,7 @@ export default function Productions() {
 
         <section>
           <p className="pink-2">Quali e QualiPro</p>
-          <div className="flexbox">
+          <div className="flexbox s3-space">
             <img className="s3-mockup s3-img-mobile" src={Mockup} />
             <p className="s3-text-container1">
               {/* adicionar classe para margin bottom */}O App Quali foi
@@ -226,7 +226,7 @@ export default function Productions() {
             </p>
           </div>
 
-          <div className="flexbox">
+          <div className="flexbox s3-space">
             <p className="s3-text-container2">
               Esse foi um desafio gigante, minha primeira experiência fazendo
               desde a documentação do software a sua interface, desenhado fluxos
@@ -238,23 +238,21 @@ export default function Productions() {
               <img className="round-img s3-img-mobile" src={Persona} />
             </div>
           </div>
-          <br />
-          <br />
-          <br />
-          <div className="flexbox">
+
+          <div className="flexbox s3-space">
             <Grid container>
               <Grid item xs={12} md={6}>
                 <div className="s3-screenshot-container screenshot-container">
-                  <p>Home do cliente</p>
+                  <p className="img-title">Home do cliente</p>
                   <img className="s3-screenshot" src={Home1} />
                   <img className="s3-screenshot" src={Home2} />
                 </div>
               </Grid>
 
-              <Grid item xs={12} md={6}>
+              <Grid className="s3-space" item xs={12} md={6}>
                 <p className="s3-text-container3">
-                  Ao lado estão a penúltima e a última versão da Home do Domy,
-                  respectivamente.
+                  Ao lado estão (ou acima se você estiver vendo pelo celular) a
+                  penúltima e a última versão da Home do Domy, respectivamente.
                 </p>
                 <p className="s3-text-container3">
                   <strong>Problema:</strong> Diagramação dos serviços. As duas
@@ -277,26 +275,21 @@ export default function Productions() {
               </Grid>
             </Grid>
           </div>
-          <br />
-          <br />
-          <br />
-          <div className="flexbox">
+
+          <div className="flexbox s3-space">
             <p className="s3-text-container2">
-              Aplicando storytelling ao fluxo de compra para o cliente, e ao
-              fluxo de aceitar um atendimento para o profissional, com o
-              objetivo de trazer uma coclusão a jornada do usuário, adicionei um
-              botão de “deslize para confirmar” seguindo de uma tela de
-              confirmação da ação realizada.
+              <strong>Aplicando storytelling</strong> ao fluxo de compra para o
+              cliente, e ao fluxo de aceitar um atendimento para o profissional,
+              com o objetivo de trazer uma coclusão a jornada do usuário,
+              adicionei um botão de “deslize para confirmar” seguindo de uma
+              tela de confirmação da ação realizada.
             </p>
             <img className="s3-img-mobile" src={Slide} />
           </div>
-          <br />
-          <br />
-          <br />
-          {/* ajustar */}
+
           <div className="block">
             <div className="flexbox">
-              <p lassName="img-title">
+              <p className="img-title">
                 "Arraste para confirmar" aplicado ás interfaces
               </p>
             </div>

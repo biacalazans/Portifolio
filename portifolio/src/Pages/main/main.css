@@ -9,11 +9,35 @@
   }
 
   .logo {
-    width: 100%;
+    width: 263px;
     height: 42px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
     margin: auto;
+    opacity: 0;
+
+    animation: fade 3s cubic-bezier(0.16, 1, 0.3, 1) 1s;
+    animation-fill-mode: forwards;
   }
 
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
   .logo-container {
     background-color: black;
     color: white;
@@ -281,7 +305,32 @@
   .logo {
     width: 266px;
     height: 42px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
     margin: auto;
+    opacity: 0;
+    animation: fade 3s cubic-bezier(0.16, 1, 0.3, 1) 1s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 
   .logo-container {
@@ -475,4 +524,19 @@
 }
 a {
   text-decoration: none;
+}
+
+ul {
+  padding: 0px 0px 0px 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.arrow {
+  opacity: 0;
+
+  animation: fade 3s cubic-bezier(0.16, 1, 0.3, 1) 1s;
+  animation-fill-mode: forwards;
 }

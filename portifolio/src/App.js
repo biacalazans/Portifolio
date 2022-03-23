@@ -4,9 +4,9 @@ import AppRoutes from "./routes";
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <AppRoutes />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

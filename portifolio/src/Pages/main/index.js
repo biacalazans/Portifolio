@@ -5,23 +5,25 @@ import ArrowDown from "../../assets/Vector.svg";
 import ProfilePic from "../../assets/profilepic.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import Link from "react-router-dom";
+import { Link } from "react-router-dom";
+import Logo from "../../components/Logo";
 
-import Logo from "../../assets/Logo.png";
+import LogoImg from "../../assets/Logo.png";
 
 export const Home = () => {
   return (
     <>
       <div className="mobile-container">
         <div className="flex-container">
-          <div className="logo-container">
-            <img className="logo" alt="Logo" src={Logo} />
-          </div>
+          {/* <div className="logo-container"> */}
+          <Logo />
+          <img className="logo" alt="Logo" src={LogoImg} />
+          {/* </div> */}
         </div>
 
         <div className="arrow-container">
           <button className="arrow-btn">
-            <img src={ArrowDown}></img>
+            <img className="arrow" src={ArrowDown}></img>
           </button>
         </div>
 
@@ -38,7 +40,11 @@ export const Home = () => {
               <button className="s1-btn-1">Baixar currículo</button>
             </Grid>
             <Grid item md={6} xs={12}>
-              <button className="s1-btn-2">Skills</button>
+              <Link to="/producoes">
+                <button href="/producoes" className="s1-btn-2">
+                  Produções
+                </button>
+              </Link>
             </Grid>
           </Grid>
         </div>
@@ -57,10 +63,12 @@ export const Home = () => {
             <Grid item md={6} xs={12}>
               <br />
               <div className="info-container">
-                <p>Beatriz do Amaral Calazans Serra</p>
-                <p>22 de Novembro de 2000</p>
-                <p>Salvador, BA</p>
-                <p>Engenharia de Softwaer, UCSAL</p>
+                <ul>
+                  <li>Beatriz do Amaral Calazans Serra</li>
+                  <li>22 de Novembro de 2000</li>
+                  <li>Salvador, BA</li>
+                  <li>Engenharia de Softwaer, UCSAL</li>
+                </ul>
               </div>
             </Grid>
           </Grid>
