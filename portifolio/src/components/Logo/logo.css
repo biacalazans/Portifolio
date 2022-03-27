@@ -126,7 +126,7 @@
       height: 120px;
       border: 2px solid #76c9e3;
       background: black;
-      box-shadow: 20px 20px 20px #cccccc83, 0 0 0 #ffffff, 0 0 0 #cccccc inset,
+      box-shadow: 10px 10px 10px #cccccc83, 0 0 0 #ffffff, 0 0 0 #cccccc inset,
         0 0 0 #ffffff inset;
     }
   }
