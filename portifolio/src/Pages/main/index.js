@@ -5,12 +5,18 @@ import ArrowDown from "../../assets/Vector.svg";
 import ProfilePic from "../../assets/profilepic.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import { Link } from "react-router-dom";
 import Logo from "../../components/Logo";
+import { useNavigate } from "react-router-dom";
 
 import LogoImg from "../../assets/Logo.png";
 
 export const Home = () => {
+  const navigate = useNavigate();
+
+  function goToProductions() {
+    navigate("/producoes");
+  }
+
   return (
     <>
       <div className="mobile-container">
@@ -40,11 +46,9 @@ export const Home = () => {
               <button className="s1-btn-1">Baixar currículo</button>
             </Grid>
             <Grid item md={6} xs={12}>
-              <Link to="/producoes">
-                <button href="/producoes" className="s1-btn-2">
-                  Produções
-                </button>
-              </Link>
+              <button onClick={goToProductions} className="s1-btn-2">
+                Produções
+              </button>
             </Grid>
           </Grid>
         </div>
@@ -65,7 +69,7 @@ export const Home = () => {
               <div className="info-container">
                 <ul>
                   <li>Beatriz do Amaral Calazans Serra</li>
-                  <li>22 de Novembro de 2000</li>
+                  <li>21 anos</li>
                   <li>Salvador, BA</li>
                   <li>Engenharia de Softwaer, UCSAL</li>
                 </ul>
@@ -76,32 +80,39 @@ export const Home = () => {
           <br />
           <div className="info-container">
             <p>
-              Bem vindo (a) ao meu seu site/portifólio! Me chamo Beatriz e sou
-              apaixonada por arte, design e tecnologia.{" "}
+              Bem vinda (o) ao meu site/portfólio! Me chamo Beatriz e sou
+              apaixonada por design, tecnologia e arte.
             </p>
 
             <p>
-              De fluxogramas a animação minha paixão contar histórias e ser
+              De fluxogramas a animação minha paixão é contar histórias e ser
               capaz de despertar emoções nas pessoas através do que eu crio.
               Iniciei minha vida universitária bem longe de tudo isso cursando
               Engenharia de Computação no SENAI CIMATEC, porém muitos cálculos e
-              físicas depois percebi que isso não era pra mim.
+              físicas depois percebi que esse não era o meu caminho. os cálculos
+              e físicas depois percebi que isso não era pra mim.
+            </p>
+
+            <p>
+              Durante meu período na empresa júnior do Senai juntamente com o
+              desenvolvimento de um projeto interdisciplinar percebi que para
+              mim a melhor parte do processo não era fazer o código, mas sim me
+              perguntar: “esse produto é realmente viável?”, “O que torna ele
+              único?”, “Por que as pessoas vão usa-lo?”, “Existe um público para
+              isso?” e a lógica que me intrigava não era a dos bits, e sim a da
+              mente humana e todos os desafios envolvidos em desenhar um produto
+              que, além de esteticamente agradável, fosse fácil de usar.
             </p>
 
             <p>
               Assim, troquei para Engenharia de Software na UCSAL para focar
-              mais na área da tecnologia que realmento gosto. Além disso iniciei
-              o curso de Digital Design na Infinity School para dominar melhor o
-              pacote Adobe e me desafiar a criar vídeos, animações, fotos e
-              ilustrações com cada vez mais qualidade.
-            </p>
-
-            <p>
-              Apesar de não seguir com a carreira de engenheira ou
-              desenvolvedora, acredito que ter estudado engenharia e programação
-              me deu uma visão única como UI/UX designer, me possibilitou ter
-              noção de tempo de produção, do que é ou não possível criar com
-              código de acordo com cada situação.
+              mais na área da tecnologia que realmente gosto. Apesar de não
+              seguir com a carreira de engenheira ou desenvolvedora, acredito
+              que ter estudado engenharia e programação me deu uma visão única
+              como UI/UX designer, me proporcionou ter noção de tempo de
+              produção, do que é ou não possível criar com código de acordo com
+              cada situação, além de possibilitar uma ótima comunicação com o
+              time de desenvolvimento.
             </p>
           </div>
         </div>
