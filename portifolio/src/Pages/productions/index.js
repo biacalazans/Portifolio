@@ -24,7 +24,13 @@ export default function Productions() {
   return (
     <>
       <main>
-        <p className="pink-1 black">Produções</p>
+        <div className="title-container">
+          <p className="pink-1 black">Produções</p>
+        </div>
+
+        <br />
+
+        <br />
 
         <section>
           <p className="pink-2">Remodelação das telas do app CHAPP</p>
@@ -54,12 +60,12 @@ export default function Productions() {
             <Grid item xs={12} md={5}>
               <div className="s1-text-container2">
                 <p>
-                  O maior desafio dessas telas foi o fato de eu estar fazendo
+                  O maior desafio dessas telas foi o fato de estar fazendo
                   apenas algumas partes do app e não ele todo, ou seja tinha que
-                  seguir a estética para não tornar o app inconsistente.
-                  Entretanto, apesar do desafio, essa experiência em ensinou
-                  como trabalhar com os limites estabelecidos pela empresa ou
-                  pela situação e como tirar o melhor disso.
+                  seguir a estética já adotada para não tornar o app
+                  inconsistente. Entretanto, apesar do desafio, essa experiência
+                  em ensinou como trabalhar com os limites estabelecidos pela
+                  empresa ou pela situação e como tirar o melhor disso.
                 </p>
               </div>
             </Grid>
@@ -76,7 +82,7 @@ export default function Productions() {
         <br />
         <section>
           <p className="pink-2">BookJar</p>
-          <div className="flexbox">
+          <div className="flexbox s3-space">
             <div className="s2-text-container1">
               <p>
                 O BookJar foi criado para a matéria Processos de Software do
@@ -96,17 +102,17 @@ export default function Productions() {
           <br />
           <br /> */}
 
-          <div className="flexbox">
+          <div className="flexbox s3-space">
             <div>
               <p className="img-title">Protótipo de baixa fidelidade</p>
               <img className="s2-book" src={Book0} />
             </div>
             <div className="s2-text-container2">
               <p>
-                Como foi um trabalhgo de faculdade, tive que considerar
-                primeiramente que seria desenvolvido rápido e por estudande
-                cansados de madraguda, ou seja, nada muito elaborado. Então
-                pensei em uma estética simples, usando preto e branco como cores
+                Como foi um projeto de faculdade, tive que considerar
+                primeiramente que seria desenvolvido rápido e por estudantes
+                cansados, ou seja, não poderia ser muito elaborado. Então pensei
+                em uma estética simples, usando preto e branco como cores
                 primárias e usando tipopgrafia para trazer a atmosfera de
                 leitura para a interface, pensando que a persona criada sentiria
                 que o sistema é convidativo e moderno.
@@ -122,26 +128,16 @@ export default function Productions() {
             </div>
           </div>
 
-          {/* <br />
-          <br />
-          <br /> */}
-
-          <div className="flexbox">
+          <div className="flexbox s3-space">
             <div className="block">
-              <p className="img-title">
-                Processo para criação da diagramação do livro
-              </p>
+              <p className="img-title">Processo da diagramação do livro</p>
               <img className="s2-book" src={Book1} />
               <img className="s2-book" src={Book2} />
               <img className="s2-book" src={Book3} />
             </div>
           </div>
 
-          {/* <br />
-          <br />
-          <br /> */}
-
-          <div className="flexbox">
+          <div className="flexbox s3-space">
             <Grid container justify="center">
               <Grid item xs={12} md={6}>
                 <p className="img-title s2-margin">Escolha de cores</p>
@@ -183,12 +179,18 @@ export default function Productions() {
                 <Grid container justify="center">
                   <div className="s2-text-container1">
                     <p>
-                      Como as cores utilizadas foram preto e branco, achei
-                      interessante trazer a ideia do usuário escolher a cor do
-                      livro que vai cadastrar, o que foi uma solução para a
-                      impossibilidade de fazer upload de imagens (não tinhamos o
-                      tempo para isso). Assim escolhi seis cores vivas para
-                      trazer um frescor ao design minimalista desenhado.
+                      <strong>Problema:</strong> Não tínhamos tempo de aplicar
+                      ao sistema o upload de imagens para os usuários escolherem
+                      a imagem que ficaria como capa do livro.
+                    </p>
+
+                    <p>
+                      <strong>Solução:</strong> Como as cores utilizadas foram
+                      preto e branco, achei interessante trazer a ideia do
+                      usuário escolher entre um grupo de cores pŕe definidas a
+                      cor do livro que vai cadastrar. Assim escolhi seis cores
+                      vivas para trazer um frescor ao design minimalista
+                      desenhado.
                     </p>
                   </div>
                 </Grid>
@@ -199,7 +201,7 @@ export default function Productions() {
           <br />
           <br /> */}
 
-          <div className="flexbox">
+          <div className="flexbox s3-space">
             <div className="block">
               <p className="img-title">Versão final - perfil do usuário</p>
               <img className="s2-profile-img round-img" src={Perfil} />
@@ -230,8 +232,8 @@ export default function Productions() {
             <p className="s3-text-container2">
               Esse foi um desafio gigante, minha primeira experiência fazendo
               desde a documentação do software a sua interface, desenhado fluxos
-              e personas para dois aplicativos que funcionam como um, Domy para
-              os clientes e DomyPro para profissionais de saúde .
+              e personas para dois aplicativos que funcionam como um, Quali
+              Paciente e Quali Pro para os profissionais de saúde .
             </p>
             <div>
               <p className="img-title">Persona do App Quali</p>
@@ -244,33 +246,35 @@ export default function Productions() {
               <Grid item xs={12} md={6}>
                 <div className="s3-screenshot-container screenshot-container">
                   <p className="img-title">Home do cliente</p>
-                  <img className="s3-screenshot" src={Home1} />
                   <img className="s3-screenshot" src={Home2} />
+                  <img className="s3-screenshot" src={Home1} />
                 </div>
               </Grid>
 
               <Grid className="s3-space" item xs={12} md={6}>
                 <p className="s3-text-container3">
                   Ao lado estão (ou acima se você estiver vendo pelo celular) a
-                  penúltima e a última versão da Home do Domy, respectivamente.
+                  penúltima e a última versão da Home do Quali Paciente,
+                  respectivamente.
                 </p>
                 <p className="s3-text-container3">
                   <strong>Problema:</strong> Diagramação dos serviços. As duas
                   telas possuem basicamente os mesmos componentes: pesquisa de
                   serviço, peça novamente e listagem de serviços, entretanto na
-                  penúltima versão a interface acabou ficando muito carregada
-                  pelas imagens e diagramação. Além disso, não teriámos
-                  ilustrações suficientes para todos os serviços.
+                  penúltima versão a interface acabou ficando muito carregada e
+                  visualmente puluída. Além disso, não teriámos ilustrações
+                  suficientes para todos os serviços.
                 </p>
 
                 <p className="s3-text-container3">
                   <strong>Resolução:</strong> Criação da navegação por
                   categoria, o que acredito ser muito necessário já que, na
-                  maioria das vezes os clientes não sabeme exatamente o que
+                  maioria das vezes os clientes não sabem exatamente o que
                   precisam, assim trasnformei as imagens dos serviços nas das
-                  categorias, meu colega de equipe trouxe imagens mais simples
-                  para os serviços, assim deixando a interface mais clean e
-                  resolvendo o problema de falta de ilustações.
+                  categorias ao mesmo tempo que meu colega de equipe trouxe
+                  imagens mais simples para os serviços, assim deixando a
+                  interface mais clean e resolvendo o problema de falta de
+                  ilustrações.
                 </p>
               </Grid>
             </Grid>
@@ -278,11 +282,11 @@ export default function Productions() {
 
           <div className="flexbox s3-space">
             <p className="s3-text-container2">
-              <strong>Aplicando storytelling</strong> ao fluxo de compra para o
-              cliente, e ao fluxo de aceitar um atendimento para o profissional,
-              com o objetivo de trazer uma coclusão a jornada do usuário,
-              adicionei um botão de “deslize para confirmar” seguindo de uma
-              tela de confirmação da ação realizada.
+              <strong>Aplicando storytelling</strong> ao fluxo de compra, para o
+              cliente, e ao fluxo de aceitar um atendimento, para o
+              profissional, adicionei um botão de “deslize para confirmar”
+              seguido de uma tela de confirmação da ação realizada com o
+              objetivo de trazer uma coclusão a jornada do usuário.
             </p>
             <img className="s3-img-mobile" src={Slide} />
           </div>

@@ -14,8 +14,14 @@
     margin: auto;
   }
 
+  .title-container {
+    max-width: 1000px;
+    margin: auto;
+  }
+
   .black {
     background-color: black;
+    margin: auto;
   }
 
   .screenshot-contaienr {
@@ -222,6 +228,7 @@
 
   .black {
     background-color: black;
+    margin-bottom: 0;
   }
 
   .screenshot-container {
