@@ -7,6 +7,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import Logo from "../../components/Logo";
 import { useNavigate } from "react-router-dom";
+import CV from "../../assets/Files/CV_Beatriz_Calazans.pdf";
 
 import LogoImg from "../../assets/Logo.png";
 
@@ -43,7 +44,9 @@ export const Home = () => {
           <br />
           <Grid container spacing={4}>
             <Grid item md={6} xs={12}>
-              <button className="s1-btn-1">Baixar currículo</button>
+              <a href={CV} download="CV_Beatriz_Calazans">
+                <button className="s1-btn-1">Baixar currículo</button>
+              </a>
             </Grid>
             <Grid item md={6} xs={12}>
               <button onClick={goToProductions} className="s1-btn-2">
