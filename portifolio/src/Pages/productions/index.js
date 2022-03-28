@@ -11,7 +11,6 @@ import Book1 from "../../assets/frame1.png";
 import Book2 from "../../assets/frame2.png";
 import Book3 from "../../assets/frame3.png";
 import Perfil from "../../assets/perfil.png";
-import Screenshot from "../../assets/screenshot.png";
 import Slide from "../../assets/slidePaper.png";
 import Persona from "../../assets/persona.png";
 import Home1 from "../../assets/home1.svg";

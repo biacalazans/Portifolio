@@ -22,10 +22,8 @@ export const Home = () => {
     <>
       <div className="mobile-container">
         <div className="flex-container">
-          {/* <div className="logo-container"> */}
           <Logo />
           <img className="logo" alt="Logo" src={LogoImg} />
-          {/* </div> */}
         </div>
 
         <div className="arrow-container">
