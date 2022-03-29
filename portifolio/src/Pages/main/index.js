@@ -90,8 +90,7 @@ export const Home = () => {
               capaz de despertar emoções nas pessoas através do que eu crio.
               Iniciei minha vida universitária bem longe de tudo isso cursando
               Engenharia de Computação no SENAI CIMATEC, porém muitos cálculos e
-              físicas depois percebi que esse não era o meu caminho. os cálculos
-              e físicas depois percebi que isso não era pra mim.
+              físicas depois percebi que esse não era o meu caminho.
             </p>
 
             <p>

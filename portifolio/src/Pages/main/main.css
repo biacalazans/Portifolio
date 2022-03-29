@@ -147,7 +147,7 @@
 
   .section-3-pe {
     position: absolute;
-    top: 3600px;
+    top: 3900px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -162,7 +162,7 @@
 
   .section-4-pe {
     position: absolute;
-    top: 4600px;
+    top: 4700px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -177,7 +177,7 @@
 
   .section-5-pe {
     position: absolute;
-    top: 6400px;
+    top: 6500px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -229,6 +229,7 @@
     color: white;
     padding: 18px 24px;
     /* box-shadow: 10px 5px 10px white; */
+    line-height: 140%;
   }
 
   .no-margin {
