@@ -47,9 +47,9 @@ export const Home = () => {
               </a>
             </Grid>
             <Grid item md={6} xs={12}>
-              <button onClick={goToProductions} className="s1-btn-2">
-                Produções
-              </button>
+              <a href="/producoes">
+                <button className="s1-btn-2">Produções</button>
+              </a>
             </Grid>
           </Grid>
         </div>
@@ -72,7 +72,7 @@ export const Home = () => {
                   <li>Beatriz do Amaral Calazans Serra</li>
                   <li>21 anos</li>
                   <li>Salvador, BA</li>
-                  <li>Engenharia de Softwaer, UCSAL</li>
+                  <li>Engenharia de Software, UCSAL</li>
                 </ul>
               </div>
             </Grid>
@@ -89,8 +89,8 @@ export const Home = () => {
               De fluxogramas a animação minha paixão é contar histórias e ser
               capaz de despertar emoções nas pessoas através do que eu crio.
               Iniciei minha vida universitária bem longe de tudo isso cursando
-              Engenharia de Computação no SENAI CIMATEC, porém muitos cálculos e
-              físicas depois percebi que esse não era o meu caminho.
+              Engenharia de Computação no SENAI CIMATEC, porém percebi que esse
+              não era o meu caminho.
             </p>
 
             <p>
@@ -162,7 +162,7 @@ export const Home = () => {
           <br />
           <div className="info-container ">
             <p className="no-margin">
-              Possuo conhecimento em Photoshop, Illustrator, Premier e After
+              Possuo conhecimento em Photoshop, Illustrator, Premiere e After
               Effects (edição de vídeo e animação são paixões minhas).
             </p>
           </div>
