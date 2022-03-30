@@ -12,10 +12,8 @@ import CV from "../../assets/Files/CV_Beatriz_Calazans.pdf";
 import LogoImg from "../../assets/Logo.png";
 
 export const Home = () => {
-  const navigate = useNavigate();
-
-  function goToProductions() {
-    navigate("/producoes");
+  function scrollDown() {
+    window.scroll(0, 500);
   }
 
   return (
@@ -27,7 +25,7 @@ export const Home = () => {
         </div>
 
         <div className="arrow-container">
-          <button className="arrow-btn">
+          <button onClick={scrollDown} className="arrow-btn">
             <img className="arrow" src={ArrowDown}></img>
           </button>
         </div>
