@@ -35,7 +35,7 @@ export default function Productions() {
           <p className="pink-2">Remodelação das telas do app CHAPP</p>
           <p className="white-2">
             Todas as telas apresentadas foram implementadas no app. A esquerda
-            antes e a direita depois, ou você estiver pelo celular a primeira
+            antes e a direita depois, ou se você estiver pelo celular a primeira
             antes e a seguda depois :)
           </p>
 
@@ -50,9 +50,9 @@ export default function Productions() {
               <div className="s1-text-container1">
                 <p>
                   O chapp é um app de marcação de consultas onde eu estagiei
-                  durante 6 meses, nesse tempo uma das minhas missões dentro da
+                  durante 6 meses. Nesse tempo uma das minhas missões dentro da
                   empresa foi melhorar a interface que estava desatualizada
-                  esteticamente além de ter uma péssima usabilidade.
+                  esteticamente, além de ter uma péssima usabilidade.
                 </p>
               </div>
             </Grid>
@@ -60,10 +60,10 @@ export default function Productions() {
               <div className="s1-text-container2">
                 <p>
                   O maior desafio dessas telas foi o fato de estar fazendo
-                  apenas algumas partes do app e não ele todo, ou seja tinha que
-                  seguir a estética já adotada para não tornar o app
+                  apenas algumas partes do app e não ele todo. Ou seja, tinha
+                  que seguir a estética já adotada para não tornar o app
                   inconsistente. Entretanto, apesar do desafio, essa experiência
-                  em ensinou como trabalhar com os limites estabelecidos pela
+                  me ensinou como trabalhar com os limites estabelecidos pela
                   empresa ou pela situação e como tirar o melhor disso.
                 </p>
               </div>
@@ -196,9 +196,6 @@ export default function Productions() {
               </Grid>
             </Grid>
           </div>
-          {/* <br />
-          <br />
-          <br /> */}
 
           <div className="flexbox s3-space">
             <div className="block">
@@ -217,10 +214,9 @@ export default function Productions() {
           <div className="flexbox s3-space">
             <img className="s3-mockup s3-img-mobile" src={Mockup} />
             <p className="s3-text-container1">
-              {/* adicionar classe para margin bottom */}O App Quali foi
-              idealizado como o “Uber da saúde domiciliar” uma ideia para
-              solicitar servições de saúde em casa no modelo criando pela
-              gigante dos tranporte. O conceito é simples, você compra o
+              O App Quali foi idealizado como o “Uber da saúde domiciliar” uma
+              ideia para solicitar servições de saúde em casa no modelo criando
+              pela gigante dos tranporte. O conceito é simples, você compra o
               serviço, uma solicitação de atendimento é enviada para os
               profissionais habilitados cadastrados no app, quem aceitar
               primeiro fica com o atendimentos.

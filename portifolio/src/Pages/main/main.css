@@ -1,3 +1,7 @@
+:root {
+  color-scheme: light only;
+}
+
 /* DESKTOP */
 @media only screen and (min-width: 1000px) {
   html {
