@@ -112,9 +112,9 @@ export default function Productions() {
                 primeiramente que seria desenvolvido rápido e por estudantes
                 cansados, ou seja, não poderia ser muito elaborado. Então pensei
                 em uma estética simples, usando preto e branco como cores
-                primárias e usando tipopgrafia para trazer a atmosfera de
-                leitura para a interface, pensando que a persona criada sentiria
-                que o sistema é convidativo e moderno.
+                primárias e usando tipografia para trazer a atmosfera de leitura
+                para a interface, pensando que a persona criada sentiria que o
+                sistema é convidativo e moderno.
               </p>
 
               <p>
@@ -257,7 +257,7 @@ export default function Productions() {
                   telas possuem basicamente os mesmos componentes: pesquisa de
                   serviço, peça novamente e listagem de serviços, entretanto na
                   penúltima versão a interface acabou ficando muito carregada e
-                  visualmente puluída. Além disso, não teriámos ilustrações
+                  visualmente poluída. Além disso, não teriámos ilustrações
                   suficientes para todos os serviços.
                 </p>
 
@@ -281,7 +281,7 @@ export default function Productions() {
               cliente, e ao fluxo de aceitar um atendimento, para o
               profissional, adicionei um botão de “deslize para confirmar”
               seguido de uma tela de confirmação da ação realizada com o
-              objetivo de trazer uma coclusão a jornada do usuário.
+              objetivo de trazer uma conclusão a jornada do usuário.
             </p>
             <img className="s3-img-mobile" src={Slide} />
           </div>
@@ -289,7 +289,7 @@ export default function Productions() {
           <div className="block">
             <div className="flexbox">
               <p className="img-title">
-                "Arraste para confirmar" aplicado ás interfaces
+                "Arraste para confirmar" aplicado as interfaces
               </p>
             </div>
             <div className="flexbox screenshot-container">
